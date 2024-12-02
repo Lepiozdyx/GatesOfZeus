@@ -10,6 +10,7 @@ import WebKit
 
 final class WebViewManager {
     static let shared = WebViewManager()
+    
     private let defaults = UserDefaults.standard
     private let initialURL = URL(string: "https://gatesofzeus.online/score")!
     
